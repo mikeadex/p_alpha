@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f21eb37a-6ee0-42d2-a055-c650decaf6cd" name="Changes" comment="" />
+    <list default="true" id="f21eb37a-6ee0-42d2-a055-c650decaf6cd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/qrcode_app/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qrcode_app/hashers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qrcode_app/middleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qrcode_app/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qrcode_app/signals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qrcode_app/templates/qrcode_app/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qrcode_app/templates/qrcode_app/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qrcode_app/templates/qrcode_app/two_factor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qrcode_app/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e8fd035a-a422-4a8f-a2e7-5f31966e12db.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e8fd035a-a422-4a8f-a2e7-5f31966e12db.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e8fd035a-a422-4a8f-a2e7-5f31966e12db/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e8fd035a-a422-4a8f-a2e7-5f31966e12db/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_alpha/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project_alpha/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_alpha/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project_alpha/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qrcode_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/qrcode_app/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qrcode_app/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/qrcode_app/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qrcode_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/qrcode_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qrcode_app/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/qrcode_app/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qrcode_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/qrcode_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qrcode_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/qrcode_app/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +36,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2hTPTwK9a9ULUnGshECa8VU5gkr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -29,6 +52,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "dart.analysis.tool.window.visible": "false",
+    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -42,6 +66,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/qrcode_app/templates" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="project_alpha" type="Python.DjangoServer" factoryName="Django server">
       <module name="project_alpha" />
@@ -83,7 +112,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717615106732</updated>
-      <workItem from="1717615118613" duration="2878000" />
+      <workItem from="1717615118613" duration="9637000" />
+      <workItem from="1717650025828" duration="8851000" />
     </task>
     <servers />
   </component>

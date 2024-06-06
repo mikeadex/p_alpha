@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Welcome, {{ profile.user.username }}!</h1>
+
+    <h2>Business Information</h2>
+    <p><strong>Business Name:</strong> {{ profile.business_name }}</p>
+    <p><strong>Business Address:</strong> {{ profile.business_address }}</p>
+    <p><strong>Contact Number:</strong> {{ profile.contact_number }}</p>
+
+    <h2>Profile Picture</h2>
+    {% if profile.profile_picture %}
+        <img src="{{ profile.profile_picture.url }}" alt="Profile Picture">
+    {% else %}
+        <p>No profile picture uploaded.</p>
+    {% endif %}
+
+    <h2>Banner Image</h2>
+    {% if profile.banner_image %}
+        <img src="{{ profile.banner_image.url }}" alt="Banner Image">
+    {% else %}
+        <p>No banner image uploaded.</p>
+    {% endif %}
+
+    <h2>QR Code Templates</h2>
+    <ul>
+        {% for template in templates %}
+            <li>{{ template.name }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Update Business Info</h2>
+    <form method="post" enctype="multipart/form-data" action="{% url 'complete_business_info' %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Update</button>
+    </form>
+</body>
+</html>
